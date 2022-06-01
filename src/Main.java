@@ -7,26 +7,26 @@ public class Main {
     public static void main(String[] args) {
 
         Map<String,Float> competidores = new HashMap<>();
-        competidores.put("Lucas", (float) 80.55);
-        competidores.put("Pedro", (float) 85.49);
-        competidores.put("Paulo", (float) 71.55);
-        competidores.put("Cleber", (float) 71.41);
-        competidores.put("Ivan", (float) 100.55);
-        competidores.put("Lorenzo", (float) 114.57);
-        competidores.put("Beto", (float) 100.44);
-        competidores.put("Carla", (float) 99.55);
-        competidores.put("Carol", (float) 94.10);
-        competidores.put("Cecilia", (float) 84.43);
-        competidores.put( "Beth", (float) 85.18);
-        competidores.put("Lorena", (float) 102.15);
-        competidores.put("Felipe", (float) 162.55);
-        competidores.put("Amelia", (float) 105.28);
-        competidores.put("Duda", (float) 122.55);
-        competidores.put("Renata", (float) 112.15);
-        competidores.put("Jean", (float) 110.55);
-        competidores.put("Júnior", (float) 115.30);
-        competidores.put("claúdio", (float) 117.50);
-        competidores.put("Daniel", (float) 94.15);
+        competidores.put("Lucas", 80.55F);
+        competidores.put("Pedro", 85.49F);
+        competidores.put("Paulo", 71.55F);
+        competidores.put("Cleber", 71.41F);
+        competidores.put("Ivan", 100.55F);
+        competidores.put("Lorenzo", 114.57F);
+        competidores.put("Beto", 100.44F);
+        competidores.put("Carla", 99.55F);
+        competidores.put("Carol", 94.10F);
+        competidores.put("Cecilia", 84.43F);
+        competidores.put( "Beth", 85.18F);
+        competidores.put("Lorena", 102.15F);
+        competidores.put("Felipe", 162.55F);
+        competidores.put("Amelia", 105.28F);
+        competidores.put("Duda", 122.55F);
+        competidores.put("Renata",  112.15F);
+        competidores.put("Jean", 110.55F);
+        competidores.put("Júnior", 115.30F);
+        competidores.put("claúdio", 117.50F);
+        competidores.put("Daniel", 94.15F);
 
 
         vencedor(competidores);
